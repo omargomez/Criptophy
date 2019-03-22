@@ -14,16 +14,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-//        let input = "Hallo welt!"
-//        let secret = Cipher.shared.encrypt(input.data(using: .utf8)!)!
-//        let data = Cipher.shared.decrypt(secret)!
-//        let output = String(data: data, encoding: .utf8)!
-//        print("Input: \(input) , Output: \(output)")
-//
         return true
     }
 

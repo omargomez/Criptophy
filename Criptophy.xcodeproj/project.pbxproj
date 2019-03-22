@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9AC3C1822404B0300706B4C /* UserDefaultsDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AC3C1722404B0300706B4C /* UserDefaultsDecorator.swift */; };
+		F9F58DA122451BA1003027C1 /* CriptophyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F58DA022451BA1003027C1 /* CriptophyTests.swift */; };
+		F9F58DA322451BA1003027C1 /* Criptophy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9F91A79220C92C1002754D9 /* Criptophy.framework */; };
 		F9F91A7E220C92C1002754D9 /* Criptophy.h in Headers */ = {isa = PBXBuildFile; fileRef = F9F91A7C220C92C1002754D9 /* Criptophy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9F91AAD220C9552002754D9 /* Foundation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F91AA9220C9552002754D9 /* Foundation+Extensions.swift */; };
 		F9F91AB1220C99D6002754D9 /* DataCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F91AA8220C9552002754D9 /* DataCrypto.swift */; };
@@ -14,7 +17,21 @@
 		F9F91AB5220C9A94002754D9 /* Cipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F91AAB220C9552002754D9 /* Cipher.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F9F58DA422451BA1003027C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9F91A70220C92C1002754D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9F91A78220C92C1002754D9;
+			remoteInfo = Criptophy;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		F9AC3C1722404B0300706B4C /* UserDefaultsDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsDecorator.swift; sourceTree = "<group>"; };
+		F9F58D9E22451BA1003027C1 /* CriptophyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CriptophyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F58DA022451BA1003027C1 /* CriptophyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriptophyTests.swift; sourceTree = "<group>"; };
+		F9F58DA222451BA1003027C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9F91A79220C92C1002754D9 /* Criptophy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Criptophy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F91A7C220C92C1002754D9 /* Criptophy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Criptophy.h; sourceTree = "<group>"; };
 		F9F91A7D220C92C1002754D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -26,6 +43,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F9F58D9B22451BA1003027C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F58DA322451BA1003027C1 /* Criptophy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F9F91A76220C92C1002754D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -36,10 +61,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F9F58D9F22451BA1003027C1 /* CriptophyTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9F58DA022451BA1003027C1 /* CriptophyTests.swift */,
+				F9F58DA222451BA1003027C1 /* Info.plist */,
+			);
+			path = CriptophyTests;
+			sourceTree = "<group>";
+		};
 		F9F91A6F220C92C1002754D9 = {
 			isa = PBXGroup;
 			children = (
 				F9F91A7B220C92C1002754D9 /* Criptophy */,
+				F9F58D9F22451BA1003027C1 /* CriptophyTests */,
 				F9F91A7A220C92C1002754D9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				F9F91A79220C92C1002754D9 /* Criptophy.framework */,
+				F9F58D9E22451BA1003027C1 /* CriptophyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +98,7 @@
 				F9F91AAB220C9552002754D9 /* Cipher.swift */,
 				F9F91A7C220C92C1002754D9 /* Criptophy.h */,
 				F9F91A7D220C92C1002754D9 /* Info.plist */,
+				F9AC3C1722404B0300706B4C /* UserDefaultsDecorator.swift */,
 			);
 			path = Criptophy;
 			sourceTree = "<group>";
@@ -88,6 +125,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		F9F58D9D22451BA1003027C1 /* CriptophyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F58DA822451BA1003027C1 /* Build configuration list for PBXNativeTarget "CriptophyTests" */;
+			buildPhases = (
+				F9F58D9A22451BA1003027C1 /* Sources */,
+				F9F58D9B22451BA1003027C1 /* Frameworks */,
+				F9F58D9C22451BA1003027C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9F58DA522451BA1003027C1 /* PBXTargetDependency */,
+			);
+			name = CriptophyTests;
+			productName = CriptophyTests;
+			productReference = F9F58D9E22451BA1003027C1 /* CriptophyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F9F91A78220C92C1002754D9 /* Criptophy */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9F91A81220C92C1002754D9 /* Build configuration list for PBXNativeTarget "Criptophy" */;
@@ -112,9 +167,13 @@
 		F9F91A70220C92C1002754D9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Omar Eduardo Gomez Padilla";
 				TargetAttributes = {
+					F9F58D9D22451BA1003027C1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					F9F91A78220C92C1002754D9 = {
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1010;
@@ -134,11 +193,19 @@
 			projectRoot = "";
 			targets = (
 				F9F91A78220C92C1002754D9 /* Criptophy */,
+				F9F58D9D22451BA1003027C1 /* CriptophyTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F9F58D9C22451BA1003027C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F9F91A77220C92C1002754D9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -149,11 +216,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F9F58D9A22451BA1003027C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F58DA122451BA1003027C1 /* CriptophyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F9F91A75220C92C1002754D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F9F91AB5220C9A94002754D9 /* Cipher.swift in Sources */,
+				F9AC3C1822404B0300706B4C /* UserDefaultsDecorator.swift in Sources */,
 				F9F91AB1220C99D6002754D9 /* DataCrypto.swift in Sources */,
 				F9F91AAD220C9552002754D9 /* Foundation+Extensions.swift in Sources */,
 				F9F91AB4220C9A8E002754D9 /* Keychain.swift in Sources */,
@@ -162,7 +238,51 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		F9F58DA522451BA1003027C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9F91A78220C92C1002754D9 /* Criptophy */;
+			targetProxy = F9F58DA422451BA1003027C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		F9F58DA622451BA1003027C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87436V65Z6;
+				INFOPLIST_FILE = CriptophyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.omargomez.CriptophyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9F58DA722451BA1003027C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87436V65Z6;
+				INFOPLIST_FILE = CriptophyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.omargomez.CriptophyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		F9F91A7F220C92C1002754D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -341,6 +461,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F9F58DA822451BA1003027C1 /* Build configuration list for PBXNativeTarget "CriptophyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F58DA622451BA1003027C1 /* Debug */,
+				F9F58DA722451BA1003027C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F9F91A73220C92C1002754D9 /* Build configuration list for PBXProject "Criptophy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

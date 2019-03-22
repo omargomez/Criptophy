@@ -1,5 +1,5 @@
 /*
- * As explained by @Umaks_vs at ttps://medium.com/@vialyx/security-data-transforms-with-swift-aes256-on-ios-6509917497d
+ * As explained by @Umaks_vs at https://medium.com/@vialyx/security-data-transforms-with-swift-aes256-on-ios-6509917497d
  */
 
 import Foundation
